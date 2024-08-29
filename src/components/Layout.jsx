@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="text-gray-700 hover:text-gray-900 text-sm"
+                  className="text-gray-700 hover:text-gray-900 text-sm uppercase font-semibold tracking-wide"
                 >
                   {item.title}
                 </Link>
