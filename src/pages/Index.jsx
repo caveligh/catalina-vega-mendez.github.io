@@ -13,19 +13,10 @@ const Index = () => {
         </div>
         <div className="md:w-2/3 md:pl-12">
           <p className="text-lg mb-6">
-            Welcome! I am a Fifth year Ph.D. Candidate at <a href="https://www.purdue.edu/" className="text-blue-600 hover:underline">Purdue University</a>. I am currently a Bilsland 
-            Dissertation Fellow at Purdue University. I study comparative political behavior and 
-            migration policy in developing countries, with a regional focus on Latin America. 
-            Particularly, my dissertation investigates the impact of migration-induced demographic 
-            shifts on preexisting latent factors, such as economic and cultural grievances, among 
-            South American voters. I seek to uncover the mechanisms driving these differential 
-            effects, which subsequently influence voters' leanings toward supporting left-wing or right-
-            wing populist candidates.
+            Welcome! I am Catalina Vega Méndez, a Ph.D. candidate in Political Science at Purdue University and a Predoctoral Research Fellow at Florida International University's Green School of International and Public Affairs. My research specializes in Comparative Politics with a minor in International Relations, focusing on migration policy, human behavior, and political attitudes in developing countries, particularly in Latin America. Driven by a commitment to bridging the gap between academic knowledge and real-world policy challenges, I explore how migration influences local political dynamics, social cohesion, and public attitudes in host communities.
           </p>
-          <p className="text-lg">
-            Before I started my Ph.D. program, I obtained my masters degree at Purdue University in 
-            2021. I grew up in Bogotá, Colombia and completed my undergraduate studies in Political 
-            Science at Universidad Nacional de Colombia in 2019.
+          <p className="text-lg mb-6">
+            My dissertation examines the political consequences of the Venezuelan migratory crisis in Colombia, revealing how perceptions of migration impact local voting behavior and public service concerns. I have extended my research beyond Colombia, analyzing nationalistic responses to migration in Chile and contributing to a broader understanding of migration's political effects in the Global South.
           </p>
         </div>
       </div>
