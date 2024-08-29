@@ -3,32 +3,24 @@ import Layout from "../components/Layout";
 const Research = () => {
   return (
     <Layout>
-      <h1 className="text-3xl font-bold mb-6">Research</h1>
       <div className="space-y-8">
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Current Projects</h2>
-          <ul className="list-disc pl-6">
-            <li>Explainable AI for Medical Diagnosis</li>
-            <li>Ethical Considerations in Autonomous Vehicles</li>
-            <li>Privacy-Preserving Machine Learning Techniques</li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-2xl font-semibold mb-4">Selected Publications</h2>
-          <ul className="list-disc pl-6">
-            <li>Doe, J., et al. (2022). "Advancing Interpretable ML Models." Nature Machine Intelligence.</li>
-            <li>Smith, A., Doe, J. (2021). "Ethical AI: Challenges and Solutions." AI Ethics Journal.</li>
-            <li>Doe, J. (2020). "The Future of AI in Healthcare." Science Robotics.</li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-2xl font-semibold mb-4">Research Interests</h2>
-          <p>
-            My research focuses on developing interpretable and ethical AI systems,
-            with a particular emphasis on applications in healthcare and autonomous systems.
-            I am also interested in the societal impacts of AI and how to develop
-            policies that promote responsible AI development and deployment.
+          <h2 className="text-2xl font-semibold mb-4">Publications</h2>
+          <p className="mb-4">
+            "Does Immigration Increase Concerns about the Provision of Public Services? Evidence from Colombia" (with Giancarlo Visconti). 2021. Revista Latinoamericana de Opinión Pública 10(1), 79-103.
           </p>
+          <p className="mb-4">
+            Maria Braun award for the best paper published in RLOP in 2021
+          </p>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">Working papers</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>"Demographic Changes and the Roots of Nationalism". (with Giancarlo Visconti).</li>
+            <li>"Beyond Negative Peace: Do UN Peacekeepers decrease security and trust concerns?" (with Sky Kunkel)</li>
+            <li>"Exposure to Political Violence and Preferences after Peace Agreement: Evidence from Colombia."</li>
+            <li>"Politicized Spaces and the Media: Studying the Venezuelan Migratory Crisis in Colombia."</li>
+          </ul>
         </div>
       </div>
     </Layout>
