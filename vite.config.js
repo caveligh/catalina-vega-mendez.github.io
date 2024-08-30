@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/catalina-vega-mendez.github.io/',
   resolve: {
-    alias: {
+    alias: [
       {
         find: "@",
         replacement: fileURLToPath(new URL("./src", import.meta.url)),
@@ -17,7 +17,7 @@ export default defineConfig({
         replacement: resolve(__dirname, "lib"),
       },                  
 //      '@': path.resolve(__dirname, './src')
-    }
+    ]
   },
   build: {
     outDir: 'dist',
